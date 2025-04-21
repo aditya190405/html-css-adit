@@ -163,9 +163,47 @@ nav ul li a {
   margin-top: 25px;
 }
 
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.portfolio-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.portfolio-description {
+  margin-top: 15px;
+  font-size: 1em;
+  color: #333;
+}
+
+.arrow {
+  font-size: 3em;
+  color: orange;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
 /* SERVICES SECTION */
 .services {
-  background-color: #A97142;
+  background-color: hsl(27, 44%, 46%);
   color: #fff;
   padding: 80px 60px;
   text-align: center;
