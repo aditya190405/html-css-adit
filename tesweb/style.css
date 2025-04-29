@@ -80,21 +80,6 @@ nav ul li a {
   gap: 25px;
 }
 
-.social-media img {
-  height: 48px;
-  width: 48px;
-  transition: transform 0.3s;
-}
-
-.social-media .youtube-icon {
-  width: 80px;
-  height: 48px;
-}
-
-.social-media img:hover {
-  transform: scale(1.1);
-}
-
 .btn {
   display: inline-block;
   margin-top: 30px;
@@ -364,4 +349,44 @@ nav ul li a {
 .blog {
   position: relative; /* Needed for absolute triangles */
 }
+
+.logo:hover {
+  animation: bounceOut 1s;
+  animation-name: bounceOut;
+  animation-duration: 1s;
+}
+
+.social-media {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start; /* Ratakan ke kiri */
+  gap: 20px;
+}
+
+
+.social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  background-color: #FAF9F6;
+}
+
+.social-icon i {
+  font-size: 24px;
+  color: #000;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+}
+
+
 
